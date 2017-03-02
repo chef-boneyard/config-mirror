@@ -1,3 +1,70 @@
+2017-02-07  Ben Elliston  <bje@gnu.org>
+
+	Reported by Hugues Lefebvre <hugues.lefebvre@lusis.fr>.
+	* config.guess (NSX-?:NONSTOP_KERNEL:*:*): New.
+	* config.sub (nsx-tandem): New.
+	* testsuite/config-guess.data: Add a test case.
+	* testsuite/config-sub.data: Likewise.
+
+2017-01-01  Ben Elliston  <bje@gnu.org>
+
+	* config.guess: Update copyright years.
+	* config.sub: Likewise.
+	* doc/config.guess.1: Regenerate.
+	* doc/config.sub.1: Likewise.
+
+2016-12-28  Ben Elliston  <bje@gnu.org>
+
+	* Makefile (doc/config.guess.1): Depend on config.guess.
+	(doc/config.sub.1): Depend on config.sub.
+
+2016-12-28  Ben Elliston  <bje@gnu.org>
+
+	* doc/config.guess.1: Regenerate.
+	* doc/config.sub.1: Likewise.
+
+2016-12-28  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.data: Align columns.
+
+2016-12-27  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.data: Align columns.
+
+2016-12-27  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-guess.data: Sort.
+	* testsuite/config-sub.data: Likewise.
+
+2016-12-24  Jeremy Soller  <jackpot51@gmail.com>
+
+       * config.sub (-redox*): New.
+       * testsuite/config-sub.data: Add a test case.
+
+2016-12-16  Dimitar Dimitrov  <dimitar@dinux.eu>
+
+	* config.sub (pru, pru-*): Force ELF format.
+	* testsuite/config-sub.data: Update PRU test case.
+
+2016-11-19  Ben Elliston  <bje@gnu.org>
+
+	* config.sub (glidix-*): Recognise.
+	* testsuite/config-sub.data: Add a test case.
+
+2016-11-04  Ben Elliston  <bje@gnu.org>
+
+	* testsuite/config-sub.sh: Improve top-of-file comment.
+
+2016-11-04  Dimitar Dimitrov  <dimitar@dinux.eu>
+
+	* config.sub (pru, pru-*): New.
+	* testsuite/config-sub.data: Add test cases.
+
+2016-11-03  Doug Evans  <dje@google.com>
+
+	* config.sub (-fuchsia*): New.
+	* testsuite/config-sub.data: Add a test case.
+
 2016-10-03  Ben Elliston  <bje@gnu.org>
 
 	* config.guess (mips64el:Linux:*:*): New.
